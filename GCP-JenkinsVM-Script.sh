@@ -19,4 +19,4 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword > adminpass.txt
 sudo add-apt-repository ppa:ubuntu-toolchain-r/ppa -y
 sudo apt update
 EOF
-gcloud compute ssh ${name}
+gcloud compute ssh ${name} 
